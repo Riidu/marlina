@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Ucapan Romantis</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffe4e6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 20px;
+            font-family: 'Open Sans', sans-serif;
+            overflow-y: auto; /* Aktifkan scroll jika konten terlalu tinggi */
+        }
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            background-color: #fff0f3;
+            text-align: center;
+            max-width: 400px;
+            padding: 20px;
+            border: none;
+            animation: fadeIn 1s ease-in-out;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .card-header {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2em;
+            color: #ff6b81;
+            margin-bottom: 10px;
+        }
+        .card-footer {
+            font-size: 14px;
+            color: #777;
+        }
+        .heart-icon {
+            font-size: 50px;
+            color: #ff6b81;
+            animation: bounce 1.5s infinite;
+        }
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-header">
+            <span class="heart-icon">❤️</span>
+            <h3>Selamat Ulang Tahun!</h3><br>
+        </div>
+        <div class="card-body">
+            <p class="card-text">Selamat ulang tahun ya lin, semoga panjang umur sehat selalu nlancar rezekinya, maaf nek selama iki aku sering gawe we sakit hati opo kecewa mbe omonganku, ya pokok intine masih ada rasa di dalam diriku, asekkk, pokok sukses selalu ya, semoga sing tak lakukan kabeh iki iso menebus kabeh kesalahanku sing dulu dulu ❤️!</p>
+            
+            <!-- Foto -->
+            <div class="mb-3">
+                <img src="3.jpeg" alt="Foto Kenangan" class="img-fluid rounded">
+            </div>
+
+            <!-- Video Lokal -->
+            <video controls width="100%" class="mb-3 rounded">
+                <source src="1.mp4" type="video/mp4">
+                Browser Anda tidak mendukung video.
+            </video>
+
+            <div class="card-footer text-muted">
+                <p>Dengan sepenuh hati,</p>
+                <p>rio alpetot mania 03-10-2024</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
